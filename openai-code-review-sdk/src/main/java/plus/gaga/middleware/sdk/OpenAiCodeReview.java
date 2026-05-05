@@ -12,24 +12,7 @@ public class OpenAiCodeReview {
 
     private static final Logger logger = LoggerFactory.getLogger(OpenAiCodeReview.class);
 
-    // 配置配置
-    private String weixin_appid = "wx5a228ff69e28a91f";
-    private String weixin_secret = "0bea03aa1310bac050aae79dd8703928";
-    private String weixin_touser = "or0Ab6ivwmypESVp_bYuk92T6SvU";
-    private String weixin_template_id = "l2HTkntHB71R4NQTW77UkcqvSOIFqE_bss1DAVQSybc";
-
-    // ChatGLM 配置
-    private String chatglm_apiHost = "https://open.bigmodel.cn/api/paas/v4/chat/completions";
-    private String chatglm_apiKeySecret = "";
-
-    // Github 配置
-    private String github_review_log_uri;
-    private String github_token;
-
-    // 工程配置 - 自动获取
-    private String github_project;
-    private String github_branch;
-    private String github_author;
+    // 所有配置都从环境变量获取，不再硬编码
 
     public static void main(String[] args) throws Exception {
         GitCommand gitCommand = new GitCommand(
