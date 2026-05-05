@@ -19,14 +19,14 @@ import java.util.Scanner;
 public class ApiTest {
 
     public static void main(String[] args) {
-        String apiKeySecret = "c78fbacd3e10118ad5649d7a54a3a163.UunYDBxpzeClvSKZ";
+        String apiKeySecret = "37b59533bb9644e08a4de2aefe28bcd5.0C7SSFrdaXTNC57F";
         String token = BearerTokenUtils.getToken(apiKeySecret);
         System.out.println(token);
     }
 
     @Test
     public void test_http() throws IOException {
-        String apiKeySecret = "c78fbacd3e10118ad5649d7a54a3a163.UunYDBxpzeClvSKZ";
+        String apiKeySecret = "37b59533bb9644e08a4de2aefe28bcd5.0C7SSFrdaXTNC57F";
         String token = BearerTokenUtils.getToken(apiKeySecret);
 
         URL url = new URL("https://open.bigmodel.cn/api/paas/v4/chat/completions");
@@ -112,8 +112,8 @@ public class ApiTest {
     }
 
     public static class Message {
-        private String touser = "or0Ab6ivwmypESVp_bYuk92T6SvU";
-        private String template_id = "mKhGjV7UAV7Se9_byoPrgRlNfgJac8ZAfLnK8hyGmTQ";
+        private String touser = "wx5638d14ae92817cb";
+        private String template_id = "\t1aQyJGYEvhwFDA0frmA3R2Xl_3CBmki2PXvSQWETP9k";
         private String url = "https://github.com/fuzhengwei/openai-code-review-log/blob/master/2024-07-27/Wzpxr6j1JY9k.md";
         private Map<String, Map<String, String>> data = new HashMap<>();
 
