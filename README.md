@@ -177,7 +177,8 @@ mvn clean package
 | `CHATGLM_APIKEYSECRET` | ChatGLM API Key | [智谱 AI](https://open.bigmodel.cn/usercenter/apikeys) |
 
 **📸 截图位置 1：GitHub Secrets 配置页面**
-> 请截图你的 Secrets 配置页面（隐藏敏感值），保存为 `docs/images/github-secrets.png`
+> <img width="1758" height="963" alt="github-secrets" src="https://github.com/user-attachments/assets/c69a0366-9a0d-4fc2-8db0-e04bf459affa" />
+
 
 #### 4️⃣ 配置微信模板消息
 
