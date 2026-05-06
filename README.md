@@ -176,7 +176,7 @@ mvn clean package
 | `CHATGLM_APIHOST` | ChatGLM API 地址 | `https://open.bigmodel.cn/api/paas/v4/chat/completions` |
 | `CHATGLM_APIKEYSECRET` | ChatGLM API Key | [智谱 AI](https://open.bigmodel.cn/usercenter/apikeys) |
 
-**📸 截图位置 1：GitHub Secrets 配置页面**
+**📸  ：GitHub Secrets 配置页面**
 > <img width="1758" height="963" alt="github-secrets" src="https://github.com/user-attachments/assets/c69a0366-9a0d-4fc2-8db0-e04bf459affa" />
 
 
@@ -193,8 +193,9 @@ mvn clean package
 {{remark.DATA}}
 ```
 
-**📸 截图位置 2：微信模板消息配置**
-> 请截图微信测试号的模板消息配置页面，保存为 `docs/images/weixin-template.png`
+**📸  ：微信模板消息配置**
+> <img width="1758" height="963" alt="github-secrets" src="https://github.com/user-attachments/assets/80e91ea3-5fe2-4880-94d5-069215fae488" />
+
 
 #### 5️⃣ 修改 Workflow 配置
 
@@ -211,8 +212,9 @@ mvn clean package
 - 选择 **"Read and write permissions"**
 - 勾选 **"Allow GitHub Actions to create and approve pull requests"**
 
-**📸 截图位置 3：GitHub Actions 权限设置**
-> 请截图权限设置页面，保存为 `docs/images/actions-permissions.png`
+**📸 ：GitHub Actions 权限设置**
+> <img width="1853" height="888" alt="actions-permissions" src="https://github.com/user-attachments/assets/cf31999a-cacd-4041-b964-4af710300b8a" />
+
 
 ---
 
@@ -230,14 +232,15 @@ git push origin main
 
 ### 查看运行结果
 
-**📸 截图位置 4：GitHub Actions 运行成功**
-> 请截图 Actions 页面显示运行成功的界面，保存为 `docs/images/actions-success.png`
+**📸 ：GitHub Actions 运行成功**
+> <img width="1920" height="1024" alt="actions-success" src="https://github.com/user-attachments/assets/7eb41e48-63b2-4347-ae16-2627c8173700" />
 
-**📸 截图位置 5：微信通知消息**
-> 请截图微信收到的模板消息通知，保存为 `docs/images/weixin-notification.png`
+**📸 ：微信通知消息**
+> <img width="1260" height="2800" alt="微信图片_20260506142923_38_64" src="https://github.com/user-attachments/assets/20298f7a-a489-409c-a4c2-6d7c6325dc63" />
 
-**📸 截图位置 6：代码审查日志**
-> 请截图日志仓库中的审查结果文件，保存为 `docs/images/review-log.png`
+**📸  ：代码审查日志**
+> <img width="1920" height="869" alt="review-log" src="https://github.com/user-attachments/assets/25746ee8-68aa-4599-a4e1-97a4c5e031ee" />
+
 
 ### 审查结果示例
 
