@@ -1,0 +1,10 @@
+# 图片存放目录
+
+请将以下截图放在此目录：
+
+1. github-secrets.png - GitHub Secrets 配置页面
+2. weixin-template.png - 微信模板消息配置
+3. actions-permissions.png - GitHub Actions 权限设置
+4. actions-success.png - GitHub Actions 运行成功
+5. weixin-notification.png - 微信通知消息
+6. review-log.png - 代码审查日志
